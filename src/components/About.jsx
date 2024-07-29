@@ -28,7 +28,7 @@ const About = () => {
             variants={container(0.5)}
             initial='hidden'
             animate='visible'
-            className="text-cyan-400 bg-clip-text text-3xl tracking-tight text-transparent">
+            className="text-cyan-400 bg-clip-text text-3xl tracking-tight">
               Fresh Graduate at SLIIT
             </motion.span>
             <motion.p 
@@ -55,6 +55,7 @@ const About = () => {
             initial={{x:100, opacity:0}}
             animate={{x:0, opacity:1}}
             transition={{duration:1, opacity:1.2}}
+            className='rounded-2xl border-4 border-cyan-400 p-4'
             src={myPic} alt="Dishma Bhashitha"/>
           </div>
         </div>
