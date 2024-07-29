@@ -1,5 +1,5 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
+import project1 from "../assets/projects/portfolio.jpg";
+import project2 from "../assets/projects/body blitz.png";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
@@ -18,18 +18,18 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "My portfolio website",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A fully functional portfolio website with features like contact, download my resume.",
+    technologies: ["React", "Tailwind", "Framer-motion"],
   },
   {
-    title: "Task Management App",
+    title: "Gym management website - Body Blitz Fitness",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "An website for managing customers in a gym, with features such as member creation, update, delete and login functions.",
+    technologies: ["HTML", "CSS", "Tomcat", "MySQL"],
   },
   {
     title: "Portfolio Website",
