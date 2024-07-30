@@ -14,8 +14,8 @@ const Projects = () => {
                                 className='mb-6 rounded'
                                 src={project.image}
                                 alt={project.title}
-                                width={300}
-                                height={300}
+                                width={320}
+                                height={320}
                                 whileInView={{ opacity: 1, x: 0 }}
                                 initial={{ opacity: 0, x: -100 }}
                                 transition={{ duration: 0.5 }}
