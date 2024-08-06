@@ -16,7 +16,7 @@ const About = () => {
     <div className="border-b border-neutral-900 pb-4 lg:mb-35">
       <div className="flex flex-wrap">
         <div className='w-full lg:w-1/2'>
-          <div className="flex flex-col items-center lg:items-start">
+          <div className="flex flex-col items-center lg:items-start ">
             <motion.h1
               variants={container(0)}
               initial='hidden'
@@ -35,14 +35,14 @@ const About = () => {
             variants={container(1)}
             initial='hidden'
             animate='visible'
-            className='my-2 max-w-xl py-6 font-light tracking-tighter'>
+            className='my-2 max-w-xl py-6 font-light tracking-tighter '>
               I recognize myself as a self-motivated,
               confident, hardworking individual,
               who always enthusiastic to learn and
               capable of working in dynamic
-              environments. My career objective is
-              to attain a position of as an Intern
-              Frontend developer, where I can
+              environments. <br></br>My career objective is
+              to attain a position of as an Intern, 
+              where I can
               challenge myself and improve my
               skills along with supporting the
               development of the organization.
@@ -55,7 +55,7 @@ const About = () => {
             initial={{x:100, opacity:0}}
             animate={{x:0, opacity:1}}
             transition={{duration:1, opacity:1.2}}
-            className='rounded-2xl border-4 border-cyan-400 p-4'
+            className='rounded-2xl p-4'
             src={myPic} alt="Dishma Bhashitha"/>
           </div>
         </div>
